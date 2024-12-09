@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int i,n,sum_even=0,sum_odd=0;
+    printf("enter the n value:");
+    scanf("%d",&n);
+    for(i=1;i<=n;++i){
+        if(i%2==0){
+            sum_even=sum_even+i;
+        }
+        else
+        sum_odd=sum_odd+i;
+    }
+    printf("the diff of numbers is %d",abs(sum_even-sum_odd));
+}

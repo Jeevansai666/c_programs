@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     int n,rem,sum=0;
     printf("Enter the number :");
